@@ -3,9 +3,12 @@ function executeCallback( callback ) {
 }
 
 // Print Hello
-executeCallback(function () {
+/*executeCallback(function () {
     console.log('Hello');
 });
+*/
+
+executeCallback(() => console.log('Hello'));
 
 // Print Goodbye
 executeCallback(function () {
